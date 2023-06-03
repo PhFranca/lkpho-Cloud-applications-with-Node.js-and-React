@@ -10,7 +10,7 @@ userRouter.use(function (req, res, next) {
   })
 
 userRouter.get('/:id', function (req, res, next) {
-    res.send("User "+req.params.id+" last successful login "+Date())
+    res.send("Usuário "+req.params.id+" último login realizado com sucesso "+Date())
 })
   
 itemRouter.use(function (req, res, next) {
